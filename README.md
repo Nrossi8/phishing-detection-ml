@@ -20,28 +20,34 @@ data/raw/ → original dataset files
 data/processed/ → cleaned and feature-engineered data
 
 Project Structure
+
 phishing-detection-ml/
 ├── data/
 │   ├── raw/
 │   └── processed/
+
 ├── docs/
-│   ├── proposal.pdf
-│   ├── abstract.pdf
-│   ├── final_report.pdf
-│   └── gantt_chart.png
+│   ├── 5_Team_4ortified_ProjectProposalPreview_InfoSheet.docx
+│   ├── Project_ProposalPreview_4ortified.pdf
+│   ├── Project Proposal.pdf
+
 ├── models/
 │   └── phishing_model.pkl
+
 ├── notebooks/
 │   ├── 01_exploration.ipynb
 │   ├── 02_feature_engineering.ipynb
 │   └── 03_model_training.ipynb
+
 ├── src/
 │   ├── build_dataset.py
 │   ├── preprocess.py
 │   ├── train.py
 │   ├── evaluate.py
 │   └── predict.py
+
 ├── requirements.txt
+
 └── .gitignore
 
 Usage
@@ -56,7 +62,9 @@ git clone <your-repository-url>
 cd phishing-detection-ml
 
 python3 -m venv venv
+
 source venv/bin/activate     # macOS/Linux
+
 venv\Scripts\activate        # Windows
 
 pip install -r requirements.txt
@@ -77,6 +85,7 @@ benign_urls.csv – contains legitimate URLs with a single column named url.
 After adding the files, the directory should contain:
 
 data/raw/verified_online.csv
+
 data/raw/benign_urls.csv
 
 3. Build the Labeled Dataset
@@ -154,8 +163,11 @@ This prints precision, recall, f1-score, and accuracy for both phishing and legi
 If the raw data changes, rerun all scripts starting from dataset building:
 
 python src/build_dataset.py
+
 python src/preprocess.py
+
 python src/train.py
+
 python src/evaluate.py
 
 
