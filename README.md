@@ -39,6 +39,7 @@ phishing-detection-ml/
 │   └── predict.py
 ├── requirements.txt
 └── .gitignore
+```
 
 Usage
 
