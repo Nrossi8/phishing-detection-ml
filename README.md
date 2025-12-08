@@ -21,16 +21,14 @@ phishing-detection-ml/
 │   ├── raw/
 │   └── processed/
 ├── docs/
-│   ├── proposal.pdf
-│   ├── abstract.pdf
-│   ├── final_report.pdf
-│   └── gantt_chart.png
+│   ├── 5_Team_4ortified_ProjectProposalPreview_InfoSheet.docx
+│   ├── Project_ProposalPreview_4ortified.pdf
+│   ├── Project Proposal.pdf
+│   ├── README_docs.txt
+|   ├── Final Report.pdf
 ├── models/
 │   └── phishing_model.pkl
 ├── notebooks/
-│   ├── 01_exploration.ipynb
-│   ├── 02_feature_engineering.ipynb
-│   └── 03_model_training.ipynb
 ├── src/
 │   ├── build_dataset.py
 │   ├── preprocess.py
@@ -49,7 +47,7 @@ This section explains how to prepare the dataset, preprocess it, train the machi
 
 Clone the repository and create a Python virtual environment:
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/Nrossi8/phishing-detection-ml.git
 cd phishing-detection-ml
 
 python3 -m venv venv
