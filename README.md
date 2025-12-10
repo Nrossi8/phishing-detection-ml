@@ -28,7 +28,6 @@ phishing-detection-ml/
 |   ├── Final Report.pdf
 ├── models/
 │   └── phishing_model.pkl
-├── notebooks/
 ├── src/
 │   ├── build_dataset.py
 │   ├── preprocess.py
